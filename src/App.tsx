@@ -1,9 +1,7 @@
-import { useState } from "react";
 import "./App.css";
 import { init } from "@telegram-apps/sdk-react";
 
 function App() {
-  const [count, setCount] = useState(0);
   init();
   return (
     <>
